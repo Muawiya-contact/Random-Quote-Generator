@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #333, #555);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  text-align: center;
+}
+
+.quote-container {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background for better readability */
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+
+#quote {
+  margin: 20px 0;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+#author {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+#daily-quote {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #f7f7f7;
+}
